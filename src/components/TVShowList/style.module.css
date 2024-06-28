@@ -1,0 +1,18 @@
+.title {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.list {
+  display: flex;
+  overflow-x: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+}
+.list:hover {
+  overflow-x: overlay;
+}
+
+.tv_show_item {
+  margin-right: 40px;
+}

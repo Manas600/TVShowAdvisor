@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Style the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #ff416c, #ff4b2b);
+  border-radius: 10px;
+  border: 3px solid rgba(0, 0, 0, 0.3); /* Adds some space around the thumb */
+}
+
+/* Horizontal scrollbar */
+::-webkit-scrollbar-thumb:horizontal {
+  background: linear-gradient(45deg, #ff416c, #ff4b2b);
+  border-radius: 10px;
+  border: 3px solid rgba(0, 0, 0, 0.3);
+}
+
+/* Scrollbar track */
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Hover effect on the scrollbar thumb */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #ff4b2b, #ff416c);
+}
+
+/* Active effect on the scrollbar thumb */
+::-webkit-scrollbar-thumb:active {
+  background: linear-gradient(45deg, #ff4b2b, #ff416c);
+}

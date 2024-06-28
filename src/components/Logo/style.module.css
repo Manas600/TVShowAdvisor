@@ -1,0 +1,37 @@
+.root {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5px;
+  width: 180px;
+  border-radius: 10px;
+  border: solid 1px #ffffff;
+  margin-bottom: 10px;
+}
+
+.root:hover {
+  cursor: pointer;
+  border: solid 1px #ff416c;
+  transition: 0.3s ease;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.img {
+  height: 30px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.subtitle {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  margin-left: 5px;
+  white-space: nowrap;
+}
